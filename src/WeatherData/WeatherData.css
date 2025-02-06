@@ -10,5 +10,9 @@
 
 .weather-time {
   font-size: 0.9rem;
-  color: #ccc;
+  color: #000e04;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  text-align: right;
+  padding-right: 1rem;
 }

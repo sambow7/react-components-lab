@@ -1,0 +1,21 @@
+#top-navbar {
+  background-image: url('https://pages.git.generalassemb.ly/modular-curriculum-all-courses/react-components-lab/assets/Reactville.png');
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Push links or logo to the right */
+  padding: 10px; /* Prevents overlap */
+  background-color: #242424;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar-logo {
+  height: 60px;
+  width: auto;
+  max-width: 150px; 
+  object-fit: contain;
+}

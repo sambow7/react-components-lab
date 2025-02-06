@@ -1,4 +1,3 @@
-import './WeatherData.css';
 
 function WeatherData({ day, conditions, time }) {
   return (

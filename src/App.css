@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  align-items: center;
 }
 
 @keyframes logo-spin {
@@ -18,15 +19,6 @@
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
-}
-
-.card {
-  padding: 2em;
-  
-}
-
-.read-the-docs {
-  color: #888;
 }
 
 :root {
@@ -54,15 +46,15 @@ a:hover {
 }
 
 body {
-  margin: 0;
+  margin: aut;
   display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  padding-top: 80px;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
-
