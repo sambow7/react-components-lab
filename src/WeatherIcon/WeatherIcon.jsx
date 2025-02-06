@@ -1,8 +1,7 @@
-// src/WeatherIcon/WeatherIcon.jsx
 import './WeatherIcon.css';
 
 function WeatherIcon({ img, imgAlt }) {
-  return <img src={img} alt={imgAlt} className="weather-icon" />;
+  return <img className="weather-icon" src={img} alt={imgAlt} />;
 }
 
 export default WeatherIcon;
